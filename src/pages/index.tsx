@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Deoxys</title>
+        <title>Url Shortner</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         <div className="md:w-1/2">
           <Suspense>
             <h1 className="text-6xl font-bold text-center uppercase">
-              deoxys
+              aperQ
             </h1>
             <p className="text-center capitalize pt-1 text-md">a fast link shortener</p>
             <CreateLink />
