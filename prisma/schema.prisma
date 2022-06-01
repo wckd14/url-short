@@ -5,7 +5,7 @@ generator client {
 
 datasource db {
   provider             = "mysql"
-  url                  = env("mysql://doadmin:AVNS_EpQDHX4i5Zc2L28@db-mysql-blr1-88263-do-user-9189119-0.b.db.ondigitalocean.com:25060/defaultdb")
+  url                  = env("DATABASE_URL")
   referentialIntegrity = "prisma"
 }
 
